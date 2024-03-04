@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Akash S",
   subTitle:
     "Full Stack Developer, DSA Enthusiast, Cisco CA, Chair IEEE SKCET, COE STI.",
-    
+
   resumeLink:
     "https://drive.google.com/file/d/1yiFtyHXFHkLjBIfUKB98MCzX_qO-xEWL/view?usp=drivesdk",
   mail: "mailto:akashsweb@gmail.com",
@@ -29,7 +29,6 @@ const socialMediaLinks = {
   gmail: "mailto:akashsweb@gmail.com",
   github: "https://github.com/akashnb0",
   instagram: "http://instagram.com/nb_akash_",
-  contact: "http://instagram.com/nb_akash_",
 };
 
 const skills = {
@@ -43,9 +42,6 @@ const skills = {
         "🔹  Backend development using NodeJS & RestAPI with Springboot",
       ],
       softwareSkills: [
-       
-       
-        
         // {
         //   skillName: "Java",
         //   fontAwesomeClassname: "simple-icons: Java",
@@ -53,7 +49,7 @@ const skills = {
         //     color: "#f89820",
         //   },
         // },
-        
+
         {
           skillName: "C++",
           fontAwesomeClassname: "simple-icons:cplusplus",
@@ -105,7 +101,7 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        
+
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
@@ -113,8 +109,7 @@ const skills = {
             color: "#61DAFB",
           },
         },
-        
-       
+
         {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
@@ -122,7 +117,7 @@ const skills = {
             color: "#439743",
           },
         },
-        
+
         {
           skillName: "Android App Development",
           fontAwesomeClassname: "simple-icons:android",
@@ -130,8 +125,6 @@ const skills = {
             color: "#3DDC84",
           },
         },
-       
-        
 
         {
           skillName: "Wordpress",
@@ -169,7 +162,6 @@ const skills = {
             color: "#E94E32",
           },
         },
-        
       ],
     },
 
@@ -177,9 +169,8 @@ const skills = {
       title: "Hardware Skills",
       fileName: "CloudInfraImg",
       skills: [
-        "🔹 I have a deep passion for electronics, VLSI and Integrated Circuits, Semiconductor Manufacturing, Physical Design, PCB Design, MATLAB, AutoDesk Fusion 360, Xilinx, Verilog, Proteus, NI Multisim exploring their intricate workings and applications. ",
+        "🔹 I have a deep passion for electronics, VLSI and Integrated Circuits, Semiconductor Manufacturing, Physical Design, PCB Design, MATLAB, AutoDesk Fusion 360, Xilinx, Verilog, Proteus, NI Multisim and exploring their intricate workings and applications. ",
         "🔹 Fascinated by network protocols such as OSI, TCP/IP, TCP, UDP and the complexities they present in modern connectivity. I thrive on understanding and unraveling the intricacies of network systems.",
-        
       ],
       softwareSkills: [
         {
@@ -210,8 +201,6 @@ const skills = {
             color: "#6863A6",
           },
         },
-        
-        
       ],
     },
     {
@@ -219,7 +208,6 @@ const skills = {
       fileName: "DataScienceImg",
       skills: [
         "🔹 Experience of working with Plotly & Google Sheets Data Visualization tools",
-        
       ],
       softwareSkills: [
         {
@@ -238,7 +226,6 @@ const skills = {
             color: "#D00000",
           },
         },
-        
       ],
     },
   ],
@@ -256,8 +243,8 @@ const degrees = {
         "🔹 Academic Excellent, Topper & Rank Holder I",
         "🔹 SGPA: 9.73/10",
         "🔹 CGPA: 9.2/10",
-        "🔹 Acquired hands on skills in Electronics, Networking and digital Communication",
-        "🔹 Worked on projects on courses like Web Development.",
+        "🔹 Acquired hands on skills in Electronics, Networking and digital Communication.",
+        "🔹 Worked on several Hackathon projects.",
       ],
       website_link: "https://www.skcet.ac.in/",
     },
@@ -266,21 +253,19 @@ const degrees = {
       subtitle: "BA Hindi Language and Literature",
       logo_path: "dbhps.png",
       alt_name: "SETI",
-      duration: "2017 - 2021",
+      duration: "2019",
       descriptions: [
         "🔹 Kavi Parichaya, ERC, Nibandh Lekhan, Kahani",
         "🔹 Vyaakaran, Charitra Chitran, Vivechnathmak Lekhan, Patra Lekhan",
         "🔹 Percentage: 91%",
       ],
-      website_link: "https://www.skcet.ac.in/",
+      website_link: "https://www.dbhpscentral.org/",
     },
   ],
 };
 
 const certifications = {
   certifications: [
-    
-    
     {
       title: "Google Digital Marketing",
       subtitle: "2020",
@@ -307,17 +292,17 @@ const certifications = {
     },
     {
       title: "Celonis Foundations",
-      subtitle: "eptember 2023",
+      subtitle: "September 2023",
       logo_path: "celonis.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/records/25JXRB2RWHRX",
       alt_name: "Google",
-      color_code:  "#fffbf3",
+      color_code: "#fffbf3",
     },
-    
+
     {
       title: "Getting Started with MongoDB Atlas",
-      subtitle: "Septedmber 2023",
+      subtitle: "September 2023",
       logo_path: "mongo.png",
       certificate_link: "https://graduation.udacity.com/confirm/HLE7K5V3",
       alt_name: "Google",
@@ -339,7 +324,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've completed two internships. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I've completed two Internships. I am actively looking for Internships. I love organizing workshops to share my knowledge with others.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -359,7 +344,7 @@ const experience = {
         {
           title: "COE Officer",
           company: "STI Technical Institute",
-          company_url: "", //to be updated with sti website
+          company_url: "https://fabulous-dragon-006c8c.netlify.app/", //to be updated with sti website
           logo_path: "dote.png",
           duration: "February 2020 - Ongoing",
           location: "Tamil Nadu, India",
@@ -378,7 +363,6 @@ const experience = {
             "University Representative & Campus Ambassador for the conduct of Technical Events at Sri Krishna College of Engineering and Technology",
           color: "#f10000",
         },
-        
       ],
     },
     {
@@ -389,8 +373,8 @@ const experience = {
           company: "ISRO Propulsion Complex (IPRC)",
           company_url: "https://www.iprc.gov.in/",
           logo_path: "iprc.png",
-          duration: "May 2019 - Aug 2019",
-        
+          duration: "January 2023",
+
           description:
             "Sensors and Calibration of transducers. Systems and equipments for Assembly Integration for Cryogenic stages of GSLV Mk II and GSLV Mk III. Instrumentation systems and Command & Control systems of Main Engine and Stage Test Facility for testing Cryogenic Engine.",
           color: "#ee3c26",
@@ -401,7 +385,7 @@ const experience = {
           company_url: "https://www.emertxe.com/",
           logo_path: "emertxe.png",
           duration: "February 2024 - Ongoing",
-          
+
           description:
             "Embedded Systems and its Applications with real-time projects",
           color: "#0071C5",
@@ -416,7 +400,7 @@ const experience = {
           company: "IEEE Student Branch SKCET - 61261",
           company_url: "https://www.ieee.org/",
           logo_path: "ieee1.png",
-          duration: "Summer of 2017 / 18 / 20",
+          duration: "March 2022 - Ongoing",
           location: " ",
           description:
             "Overall Coordinator of the IEEE Madras Section Hub Congress. Mentorship responsibilities were to help the Student Branch plan the Project Funding, Annual Activities, Student Branch Reporting, ensure smooth progress of the Student Branch.",
@@ -428,7 +412,7 @@ const experience = {
           company_url: "https://youthunitedcouncilofindia.org/",
           logo_path: "yuci.png",
           duration: "January 2024 - Ongoing",
-          
+
           description:
             "Organize the teams of various clubs all over the state of Tamil Nadu.",
           color: "#D83B01",
@@ -439,7 +423,7 @@ const experience = {
           company_url: "https://youthunitedcouncilofindia.org/",
           logo_path: "yuci.png",
           duration: "January 2024 - Ongoing",
-          
+
           description:
             "Talent Acquisition Team. Selecting the Candidates best suited for the available positions at YUCI",
           color: "#D83B01",
@@ -479,7 +463,8 @@ const projects = {
     {
       name: "Knowly",
       url: "https://fabulous-dragon-006c8c.netlify.app/",
-      description: "A customized application from AtoZ for a Government Approved Technical Institute and an educational website offering wide range of courses and Result Management.",
+      description:
+        "A customized application from AtoZ for a Government Approved Technical Institute and an educational website offering wide range of courses and Result Management.",
       languages: [
         {
           name: "React.js",
@@ -503,7 +488,6 @@ const projects = {
         },
       ],
     },
-
 
     {
       name: "Result Management, Data Management & Visualization",
@@ -531,7 +515,6 @@ const projects = {
           name: "MySQL",
           iconifyClass: "logos-mysql",
         },
-        
       ],
     },
 
@@ -569,8 +552,6 @@ const projects = {
           name: "Python",
           iconifyClass: "devicon-python",
         },
-        
-        
       ],
     },
 
@@ -588,13 +569,13 @@ const projects = {
           name: "Postman",
           iconifyClass: "logos-postman",
         },
-        
       ],
     },
     {
       name: "EV Fuel Station Tracker",
       url: "https://github.com/akashnb0",
-      description: "A mobile application for EV users and admins for navigation and charging",
+      description:
+        "A mobile application for EV users and admins for navigation and charging",
       languages: [
         {
           name: "Android",
@@ -613,7 +594,8 @@ const projects = {
     {
       name: "AI Based Smart Patient Queue Scheduling in Hospitals",
       url: "https://github.com/akashnb0",
-      description: "A web application tailored to efficiently manage patient queues in hospitals",
+      description:
+        "A web application tailored to efficiently manage patient queues in hospitals",
       languages: [
         {
           name: "ReactJS",
@@ -635,7 +617,6 @@ const projects = {
           name: "AI",
           iconifyClass: "logos-ai",
         },
-        
       ],
     },
     {
@@ -660,23 +641,16 @@ const projects = {
           name: "MySQL",
           iconifyClass: "devicon-mysql",
         },
-        
       ],
     },
-    
+
     {
       name: "Profile Output Generation",
       url: "https://github.com/akashnb0",
       description:
         "Profile Output Generation using Image Capturing Application for Engine Test using Web Enabled Controller with Structured Text Language",
-      languages: [
-        
-        
-      ],
+      languages: [],
     },
-    
-    
-    
   ],
 };
 

@@ -36,14 +36,15 @@ function Header(props) {
   const [currTheme, setCurrTheme] = useState(props.theme);
 
   function changeTheme() {
-    if (currTheme === "light") {
-      props.setTheme("dark");
-      localStorage.setItem("theme", "dark");
-      setCurrTheme("dark");
-    } else {
+    if (currTheme === "dark") {
       props.setTheme("light");
       localStorage.setItem("theme", "light");
       setCurrTheme("light");
+    } else {
+      
+      props.setTheme("dark");
+      localStorage.setItem("theme", "dark");
+      setCurrTheme("dark");
     }
   }
 

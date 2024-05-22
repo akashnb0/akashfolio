@@ -15,16 +15,10 @@ const greeting = {
   nickname: "Akash",
   full_name: "Akash S",
   subTitle:
-<<<<<<< HEAD
-    "Medallion for Excellence in Electronics, Skill Olympaid 2024. Analog and PCB design enthusiast",
-    
-=======
-    "Full Stack Developer, DSA Enthusiast, Cisco CA, Chair IEEE SKCET, COE STI.",
-
->>>>>>> 3369943c11813c3014426c048b3f759ee2bb15a7
+    "Medallion for Excellence in Electronics, Skill Olympaid 2024. Analog and PCB design enthusiast. Embedded Programming with STM32 ARM Cortex. LTSpice circuit modelling. Cisco CA, CoE STI.",
   resumeLink:
     "https://drive.google.com/file/d/1YG7b3aCAZYg4OQngmVxPCjrZxlUVP1rm/view?usp=drivesdk",
-  mail: "mailto:akashsweb@gmail.com",
+  mail: "akashsweb@gmail.com",
 };
 
 const socialMediaLinks = {
@@ -47,7 +41,6 @@ const skills = {
         "🔹 Extraordinary skills in LTSpice, Autodesk Eagle, PCB Assembly and Soldering (through hole & Surface Mounted Devices), STM32 Embedded Programming in CubeIDE",
         "🔹 I have a deep passion for electronics, VLSI and Integrated Circuits, Semiconductor Manufacturing, Physical Design, PCB Design, MATLAB, AutoDesk Fusion 360, Xilinx, Verilog, Proteus, NI Multisim exploring their intricate workings and applications. ",
         "🔹 Fascinated by network protocols such as OSI, TCP/IP, TCP, UDP and the complexities they present in modern connectivity. I thrive on understanding and unraveling the intricacies of network systems.",
-        
       ],
       softwareSkills: [
         {
@@ -78,7 +71,7 @@ const skills = {
             color: "#4285F4",
           },
         },
-        
+
         {
           skillName: "Autodesk Eagle",
           fontAwesomeClassname: "simple-icons:autodesk",
@@ -107,11 +100,8 @@ const skills = {
             color: "#6863A6",
           },
         },
-        
-        
       ],
     },
-
 
     {
       title: "Full Stack Development",
@@ -245,48 +235,6 @@ const skills = {
       ],
     },
 
-<<<<<<< HEAD
-    
-=======
-    {
-      title: "Hardware Skills",
-      fileName: "CloudInfraImg",
-      skills: [
-        "🔹 I have a deep passion for electronics, VLSI and Integrated Circuits, Semiconductor Manufacturing, Physical Design, PCB Design, MATLAB, AutoDesk Fusion 360, Xilinx, Verilog, Proteus, NI Multisim and exploring their intricate workings and applications. ",
-        "🔹 Fascinated by network protocols such as OSI, TCP/IP, TCP, UDP and the complexities they present in modern connectivity. I thrive on understanding and unraveling the intricacies of network systems.",
-      ],
-      softwareSkills: [
-        {
-          skillName: "NI Multisim",
-          fontAwesomeClassname: "simple-icons:multisim",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "Autodesk Fusion 360",
-          fontAwesomeClassname: "simple-icons:autodesk",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Proteus",
-          fontAwesomeClassname: "simple-icons:proteus",
-          style: {
-            color: "#38AFBB",
-          },
-        },
-        {
-          skillName: "Xilinx",
-          fontAwesomeClassname: "simple-icons:xilinx",
-          style: {
-            color: "#6863A6",
-          },
-        },
-      ],
-    },
->>>>>>> 3369943c11813c3014426c048b3f759ee2bb15a7
     {
       title: "Data Science & Data Visualization",
       fileName: "DataScienceImg",
@@ -325,8 +273,8 @@ const degrees = {
       duration: "  2021 - 2025",
       descriptions: [
         "🔹 Academic Excellent, Topper & Rank Holder I",
-        "🔹 SGPA: 9.73/10",
-        "🔹 CGPA: 9.2/10",
+        "🔹 SGPA: 9.87/10",
+        "🔹 CGPA: 9.31/10",
         "🔹 Acquired hands on skills in Electronics, Networking and digital Communication.",
         "🔹 Worked on several Hackathon projects.",
       ],
@@ -544,10 +492,10 @@ const contactPageData = {
 
 const projects = {
   data: [
-
     {
       name: "PCB Design",
-      url: "https://drive.google.com/file/d/1YG7b3aCAZYg4OQngmVxPCjrZxlUVP1rm/view?usp=drive_link",
+      url:
+        "https://drive.google.com/file/d/1YG7b3aCAZYg4OQngmVxPCjrZxlUVP1rm/view?usp=drive_link",
       description:
         "PSU Audio Source Switch Circuit with 555 Timer IC as Ocillator Circuit in Autodesk Fusion 360/Eagle",
       languages: [

@@ -469,7 +469,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of vast variety of latest technology tools. My best experience is to create Full Stack Web development and Data Science Projects. Below are some of my projects.",
+    "My projects make use of vast variety of latest technology tools. My best experience is to create Electronics, PCB Design, Embedded and Full stack development projects. Below are some of my projects.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -477,7 +477,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Hire me?",
-    profile_image_path: "medallion.jpg",
+    profile_image_path: "akashperfect.jpg",
     description:
       "I'm always open to opportunities to contribute and learn together. Let's connect and explore how we can make a difference.",
   },

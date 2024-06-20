@@ -15,7 +15,7 @@ const greeting = {
   nickname: "Akash",
   full_name: "Akash S",
   subTitle:
-    "Medallion for Excellence in Electronics, Skill Olympaid 2024. Analog and PCB design enthusiast. Embedded Programming with STM32 ARM Cortex. LTSpice circuit modelling. Cisco CA, CoE STI.",
+    "Electronics Medalist. Hardware Design, Analog and PCB design enthusiast. Verilog VLSI. Embedded Programming with STM32 ARM Cortex. LTSpice circuit modelling. Cisco CA, Dean of Academic Affairs and CoE Officer, STI.",
   resumeLink:
     "https://drive.google.com/file/d/1YG7b3aCAZYg4OQngmVxPCjrZxlUVP1rm/view?usp=drivesdk",
   mail: "akashsweb@gmail.com",
@@ -36,7 +36,7 @@ const skills = {
       title: "Hardware Skills",
       fileName: "CloudInfraImg",
       skills: [
-        "🔹 Medallion for Excellence in Electronics Skill, Indiaskills, Skill Olympaid 2024.",
+        "🔹 Medallion for Excellence in Electronics, 2024.",
         "🔹 Tamil Nadu State's Electronics Champion",
         "🔹 Extraordinary skills in LTSpice, Autodesk Eagle, PCB Assembly and Soldering (through hole & Surface Mounted Devices), STM32 Embedded Programming in CubeIDE",
         "🔹 I have a deep passion for electronics, VLSI and Integrated Circuits, Semiconductor Manufacturing, Physical Design, PCB Design, MATLAB, AutoDesk Fusion 360, Xilinx, Verilog, Proteus, NI Multisim exploring their intricate workings and applications. ",

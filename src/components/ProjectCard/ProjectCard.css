@@ -60,7 +60,7 @@
   text-align: left;
   display: -webkit-box;
   font-family: "Google Sans Regular";
-  -webkit-line-clamp: 4;
+  
   -webkit-box-orient: vertical;
 }
 
@@ -93,4 +93,13 @@
   .repo-creation-date {
     font-size: 14px;
   }
+}
+.blink-text {
+  color: rgb(83, 83, 145);
+  animation: blink-fade 3s infinite;
+}
+
+@keyframes blink-fade {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }

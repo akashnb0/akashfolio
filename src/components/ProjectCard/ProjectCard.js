@@ -38,6 +38,8 @@ export default function ProjectCard({ repo: project, theme }) {
               {project.name}
             </p>
           </div>
+          <p class="blink-text">Click here to view</p>
+
           <p className="repo-description" style={{ color: theme.text }}>
             {project.description}
           </p>

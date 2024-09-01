@@ -538,7 +538,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Hire me?",
-    profile_image_path: "akashdp.jpg",
+    profile_image_path: "akashpicss.jpg",
     description:
       "I'm always open to opportunities to contribute and learn together. Let's connect and explore how we can make a difference.",
   },

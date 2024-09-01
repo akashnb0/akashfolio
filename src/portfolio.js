@@ -15,7 +15,8 @@ const greeting = {
   nickname: "Akash",
   full_name: "Akash S",
   subTitle:
-    "Electronics Medalist. Hardware Design, Analog and PCB design enthusiast. Verilog VLSI. Embedded Programming with STM32 ARM Cortex. LTSpice circuit modelling. Cisco CA, Dean of Academic Affairs and CoE Officer, STI.",
+    "Electronics Medalist. Software Engineer excelling in Data Structures and Algorithms. Embedded Software Engineer & IoT. Verilog VLSI. Embedded Programming with STM32 ARM Cortex. LTSpice circuit modelling. PCB CAM Technical Writing. Cisco CA, Dean of Academic Affairs and CoE Officer, STI.",
+    
   resumeLink:
     "https://drive.google.com/file/d/1YG7b3aCAZYg4OQngmVxPCjrZxlUVP1rm/view?usp=drivesdk",
   mail: "akashsweb@gmail.com",
@@ -23,21 +24,23 @@ const greeting = {
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "",
+
   linkedin: "http://www.linkedin.com/in/akashnb",
   gmail: "mailto:akashsweb@gmail.com",
   github: "https://github.com/akashnb0",
   instagram: "http://instagram.com/nb_akash_",
+
 };
 
 const skills = {
   data: [
     {
-      title: "Hardware Skills",
+      title: "Software Skills",
       fileName: "CloudInfraImg",
       skills: [
         "🔹 Medallion for Excellence in Electronics, 2024.",
-        "🔹 Tamil Nadu State's Electronics Champion",
+        "🔹 CAM Engineer at Shenzhen, China",
+        "🔹 Excelling in Embedded Software Engineering with Wireless Network Standards (CDMA/GSM/UMTS/LTE), IoT, TCP/UDP/IP/SIP/RTP",
         "🔹 Extraordinary skills in LTSpice, Autodesk Eagle, PCB Assembly and Soldering (through hole & Surface Mounted Devices), STM32 Embedded Programming in CubeIDE",
         "🔹 I have a deep passion for electronics, VLSI and Integrated Circuits, Semiconductor Manufacturing, Physical Design, PCB Design, MATLAB, AutoDesk Fusion 360, Xilinx, Verilog, Proteus, NI Multisim exploring their intricate workings and applications. ",
         "🔹 Fascinated by network protocols such as OSI, TCP/IP, TCP, UDP and the complexities they present in modern connectivity. I thrive on understanding and unraveling the intricacies of network systems.",
@@ -60,6 +63,20 @@ const skills = {
         {
           skillName: "AutoCAD",
           fontAwesomeClassname: "simple-icons:autocad",
+          style: {
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "Ki-CAD",
+          fontAwesomeClassname: "simple-icons:kicad",
+          style: {
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "Altium Designer",
+          fontAwesomeClassname: "simple-icons:altiumdesigner",
           style: {
             color: "#4285F4",
           },
@@ -374,10 +391,54 @@ const experience = {
           color: "#2962FF",
         },
         {
+          title: "Electronics Design Trainee",
+          company: "Autodesk",
+          company_url: "", //to be updated with sti website
+          logo_path: "autodesk.png",
+          duration: "February 2023 - Ongoing",
+          location: "Tamil Nadu, India",
+          description:
+            "Autodesk Fusion 360 & Autodesk EAGLE Printed Circuit Board (PCB) Design Trainee",
+          color: "#f10000",
+        },
+        {
+          title: "PCB CAM Technical Writer",
+          company: "PCB CAM, Hong Kong, China",
+          company_url: "", //to be updated with sti website
+          logo_path: "pcbb.png",
+          duration: "February 2023 - Ongoing",
+          location: "Tamil Nadu, India",
+          description:
+            "Technical & Research article writer at a PCB Manufacturing Company in Hong Kong, China",
+          color: "#f10000",
+        },
+        {
+          title: "Dean, COA Examinations",
+          company: "STI Technical Institute",
+          company_url: "https://stitype.vercel.app", //to be updated with sti website
+          logo_path: "stilogo1.png",
+          duration: "February 2023 - Ongoing",
+          location: "Tamil Nadu, India",
+          description:
+            "Dean, software application management, examinations and results",
+          color: "#f10000",
+        },
+        {
+          title: "Dean of Academic Affairs",
+          company: "STI Technical Institute",
+          company_url: "https://stitype.vercel.app", //to be updated with sti website
+          logo_path: "stilogo1.png",
+          duration: "February 2020 - Ongoing",
+          location: "Tamil Nadu, India",
+          description:
+            "4+ years of relevant Technical work experience as a Dean of educational institution.  Website: https://stitype.vercel.app",
+          color: "#f10000",
+        },
+        {
           title: "COE Officer",
           company: "STI Technical Institute",
           company_url: "https://fabulous-dragon-006c8c.netlify.app/", //to be updated with sti website
-          logo_path: "dote.png",
+          logo_path: "stilogo1.png",
           duration: "February 2020 - Ongoing",
           location: "Tamil Nadu, India",
           description:
@@ -469,7 +530,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of vast variety of latest technology tools. My best experience is to create Electronics, PCB Design, Embedded and Full stack development projects. Below are some of my projects.",
+    "My projects make use of vast variety of latest technology tools. My best experience is to create Electronics, PCB Design, Embedded Software and Hardware and Full stack development projects. Below are some of my projects.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -477,7 +538,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Hire me?",
-    profile_image_path: "akashperfect.jpg",
+    profile_image_path: "akashdp.jpg",
     description:
       "I'm always open to opportunities to contribute and learn together. Let's connect and explore how we can make a difference.",
   },
@@ -516,7 +577,172 @@ const projects = {
           iconifyClass: "simple-icons:autocad",
         },
       ],
+      
     },
+    
+    {
+      name: "Power Failure Monitoring",
+      url: "https://github.com/akashnb0",
+      description:
+        "IoT enabled Next-Generation Three Phase Power Failure monitoring system with quick updates through IoT application.",
+      languages: [
+        {
+          name: "IoT",
+          iconifyClass: "eos-icons:iot",
+        },
+        {
+          name: "Analog",
+          iconifyClass: "mdi:analog",
+        },
+        {
+          name: "Relay",
+          iconifyClass: "logos:relay",
+        },
+        {
+          name: "ESP8266",
+          iconifyClass: "ant-design:wifi-outlined",
+        },
+        {
+          name: "Arduino",
+          iconifyClass: "logos:arduino",
+        },
+        {
+          name: "STM32",
+          iconifyClass: "arcticons:zflasher-stm32",
+        },
+      ],
+    },
+
+    
+    {
+      name: "PSU Audio Source Switch Circuit",
+      url: "https://github.com/akashnb0",
+      description:
+        "Design of efficient unit based Power Supply Unit Audio Source Switch Circuit Printed Circuit Board (PCB) design",
+      languages: [
+        
+        {
+          name: "Analog",
+          iconifyClass: "mdi:analog",
+        },
+        {
+          name: "Autodesk Eagle",
+          iconifyClass: "simple-icons:autodesk",
+        },
+        {
+          name: "LTSpice",
+          iconifyClass: "simple-icons:ltspice",
+        },
+      ],
+    },
+
+    {
+      name: "Profile Output Generation",
+      url: "https://github.com/akashnb0",
+      description:
+        "Profile Output Generation using Image Capturing Application for Engine Test using Web Enabled Controller with Structured Text Language",
+      languages: [
+
+        {
+          name: "C",
+          iconifyClass: "simple-icons:c",
+        },
+      ],
+    },
+
+
+
+    {
+      name: "COA Examination App",
+      url: "https://sticoa.vercel.app",
+      description:
+        "An end-to-end student portal for learning COA and for examinations",
+      languages: [
+        {
+          name: "React.js",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "devicon-typescript",
+        },
+        {
+          name: "Google App Script",
+          iconifyClass: "devicon-google",
+        },
+        {
+          name: "MySQL",
+          iconifyClass: "logos-mysql",
+        },
+        {
+          name: "Springboot",
+          iconifyClass: "logos-spring",
+        },
+      ],
+    },
+    {
+      name: "IoT Smart Wristband Technology for Ground Personnel",
+      url: "https://github.com/akashnb0",
+      description:
+        "An IoT-based smart wearable technology for Ground Personnel tracking during bandobast with IoT enabled LoRaWAN Technology",
+      languages: [
+        {
+          name: "reactjs",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Google Maps",
+          iconifyClass: "devicon-google",
+        },
+        {
+          name: "MySQL",
+          iconifyClass: "devicon-mysql",
+        },
+      ],
+    },
+    {
+      name: "Development of NTRIP, GNSS RTK Correction Network",
+      url: "https://github.com/akashnb0",
+      description:
+        "NTRIP Server, Caster and Client Application for Accurate GPS Positioning in Centimeter level.",
+      languages: [
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "JSON Web Tokens",
+          iconifyClass: "logos-jwt",
+        },
+        {
+          name: "Nodejs",
+          iconifyClass: "logos-nodejs",
+        },
+        {
+          name: "Git",
+          iconifyClass: "devicon-git",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "devicon-mongodb",
+        },
+        {
+          name: "Python",
+          iconifyClass: "devicon-python",
+        },
+      ],
+    },
+
+
+
     {
       name: "Knowly",
       url: "https://fabulous-dragon-006c8c.netlify.app/",
@@ -575,59 +801,23 @@ const projects = {
       ],
     },
 
-    {
-      name: "Development of NTRIP, GNSS RTK Correction Network",
-      url: "https://github.com/akashnb0",
-      description:
-        "NTRIP Server, Caster and Client Application for Accurate GPS Positioning in Centimeter level.",
-      languages: [
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "JSON Web Tokens",
-          iconifyClass: "logos-jwt",
-        },
-        {
-          name: "Nodejs",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "Git",
-          iconifyClass: "devicon-git",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "devicon-mongodb",
-        },
-        {
-          name: "Python",
-          iconifyClass: "devicon-python",
-        },
-      ],
-    },
-
-    {
-      name: "Dia'b",
-      url: "https://github.com/akashnb0",
-      description:
-        "A personalised Food Delivery Application for Diabetes with pill remainders facilities and post appointment care with timely meal suggest.",
-      languages: [
-        {
-          name: "Android",
-          iconifyClass: "logos-android",
-        },
-        {
-          name: "Postman",
-          iconifyClass: "logos-postman",
-        },
-      ],
-    },
+    
+    // {
+    //   name: "Dia'b",
+    //   url: "https://github.com/akashnb0",
+    //   description:
+    //     "A personalised Food Delivery Application for Diabetes with pill remainders facilities and post appointment care with timely meal suggest.",
+    //   languages: [
+    //     {
+    //       name: "Android",
+    //       iconifyClass: "logos-android",
+    //     },
+    //     {
+    //       name: "Postman",
+    //       iconifyClass: "logos-postman",
+    //     },
+    //   ],
+    // },
     {
       name: "EV Fuel Station Tracker",
       url: "https://github.com/akashnb0",
@@ -676,38 +866,7 @@ const projects = {
         },
       ],
     },
-    {
-      name: "Smart Wristband Technology for Ground Personnel",
-      url: "https://github.com/akashnb0",
-      description:
-        "An IoT-based smart wearable technology for Ground Personnel tracking during bandobast",
-      languages: [
-        {
-          name: "reactjs",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Google Maps",
-          iconifyClass: "devicon-google",
-        },
-        {
-          name: "MySQL",
-          iconifyClass: "devicon-mysql",
-        },
-      ],
-    },
-
-    {
-      name: "Profile Output Generation",
-      url: "https://github.com/akashnb0",
-      description:
-        "Profile Output Generation using Image Capturing Application for Engine Test using Web Enabled Controller with Structured Text Language",
-      languages: [],
-    },
+    
   ],
 };
 

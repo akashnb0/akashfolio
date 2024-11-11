@@ -2,7 +2,7 @@
   "private": true,
   "name": "akashfolio",
   "version": "1.2.0",
-  "homepage": "http://akashs.vercel.app",
+  "homepage": "http://akashn.com",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",

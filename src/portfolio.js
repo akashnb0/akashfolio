@@ -316,6 +316,38 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "TCP/IP Wireshark Internet Project",
+      subtitle: "2024",
+      logo_path: "yonsei.png",
+      certificate_link: " ",
+      alt_name: "Yonsei University",
+      color_code: "#1e70c1",
+    },
+     {
+      title: "Network Defence Essentials (NDE)",
+      subtitle: "2024",
+      logo_path: "eccouncil.jpg",
+      certificate_link: " ",
+      alt_name: "EC-Council",
+      color_code: "#1e70c1",
+    },
+    {
+      title: "Cybersecurity Operations Fundamentals",
+      subtitle: "2024",
+      logo_path: "cisco.png",
+      certificate_link: " ",
+      alt_name: "Cisco",
+      color_code: "#1e70c1",
+    },
+    {
+      title: "Hardware Security",
+      subtitle: "2024",
+      logo_path: "maryland.png",
+      certificate_link: " ",
+      alt_name: "University of Maryland, College Park",
+      color_code: "#1e70c1",
+    },
+    {
       title: "Google Digital Marketing",
       subtitle: "2020",
       logo_path: "google_logo.png",

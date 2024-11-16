@@ -411,6 +411,31 @@ const experience = {
     {
       title: "Work",
       experiences: [
+
+        {
+          title: "Hardware Engineer for AI",
+          company: "SolarEdge Technologies",
+          company_url: "https://www.solaredge.com/us/",
+          logo_path: "solaredge.png",
+          duration: "October 2024 - Present",
+          location: "Florida, Israel & Vietnam",
+          description:
+            "Working as a Hardware Engineer for Machine Vision AI for SolarEdge's core products. Working Sites - Florida, United States | Vietnam",
+          color: "#2962FF",
+        },
+
+        {
+          title: "PCB CAM Engineer",
+          company: "Viasion Technology Co Ltd.",
+          company_url: "", //to be updated with sti website
+          logo_path: "pcbb.png",
+          duration: "June 2023 - Present",
+          location: "Shenzhen, China",
+          description:
+            "Technical & Research article writer at a PCB Manufacturing Company in Hong Kong, China",
+          color: "#f10000",
+        },
+        
         {
           title: "Project Intern",
           company: "ISRO Propulsion Complex (IPRC)",
@@ -427,29 +452,19 @@ const experience = {
           company: "Autodesk",
           company_url: "", //to be updated with sti website
           logo_path: "autodesk.png",
-          duration: "February 2023 - Ongoing",
+          duration: "February 2023 - Present",
           location: "Tamil Nadu, India",
           description:
             "Autodesk Fusion 360 & Autodesk EAGLE Printed Circuit Board (PCB) Design Trainee",
           color: "#f10000",
         },
-        {
-          title: "PCB CAM Technical Writer",
-          company: "PCB CAM, Hong Kong, China",
-          company_url: "", //to be updated with sti website
-          logo_path: "pcbb.png",
-          duration: "February 2023 - Ongoing",
-          location: "Tamil Nadu, India",
-          description:
-            "Technical & Research article writer at a PCB Manufacturing Company in Hong Kong, China",
-          color: "#f10000",
-        },
+        
         {
           title: "Dean, COA Examinations",
           company: "STI Technical Institute",
           company_url: "https://stitype.vercel.app", //to be updated with sti website
           logo_path: "stilogo1.png",
-          duration: "February 2023 - Ongoing",
+          duration: "February 2022 - Present",
           location: "Tamil Nadu, India",
           description:
             "Dean, software application management, examinations and results",
@@ -460,7 +475,7 @@ const experience = {
           company: "STI Technical Institute",
           company_url: "https://stitype.vercel.app", //to be updated with sti website
           logo_path: "stilogo1.png",
-          duration: "February 2020 - Ongoing",
+          duration: "February 2020 - Present",
           location: "Tamil Nadu, India",
           description:
             "4+ years of relevant Technical work experience as a Dean of educational institution.  Website: https://stitype.vercel.app",

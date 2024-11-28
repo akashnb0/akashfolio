@@ -112,7 +112,7 @@ export default function Main(propss) {
               path="/links"
               render={() =>
                 redirectTo(
-                  "https://drive.google.com/file/d/1dfzfdbxTJQ6-7nzkYy0xTPK4Al9_sxw4/view?usp=sharing"
+                  "https://drive.google.com/file/d/1P0ssCoIKkwkKLXJxGOPEvnuj3amRg7xy/view?usp=sharing"
                 )
               }
             />
@@ -218,7 +218,7 @@ export default function Main(propss) {
               path="/links"
               render={() =>
                 redirectTo(
-                  "https://drive.google.com/file/d/1dfzfdbxTJQ6-7nzkYy0xTPK4Al9_sxw4/view?usp=sharing"
+                  "https://drive.google.com/file/d/1P0ssCoIKkwkKLXJxGOPEvnuj3amRg7xy/view?usp=sharing"
                 )
               }
             />

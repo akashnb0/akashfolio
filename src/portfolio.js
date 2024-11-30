@@ -601,34 +601,58 @@ const contactPageData = {
 const projects = {
   data: [
     {
-      name: "PCB Design",
-      url:
-        "https://drive.google.com/file/d/1YG7b3aCAZYg4OQngmVxPCjrZxlUVP1rm/view?usp=drive_link",
+      name: "Robust MAC Frame Generator with Error Handling and Control Mechanism with Verilog",
+      url: "https://github.com/akashnb0",
       description:
-        "PSU Audio Source Switch Circuit with 555 Timer IC as Ocillator Circuit in Autodesk Fusion 360/Eagle",
+        "Designing a Robust Ethernet Frame Generator with Error Handling and Control Mechanisms using Verilog with Icarus Verilog & GTKWave",
       languages: [
         {
-          name: "Autodesk Eagle",
-          iconifyClass: "simple-icons:autodesk",
+          name: "Verilog",
+          iconifyClass: "mdi:code-braces",
         },
         {
-          name: "LTSpice",
-          iconifyClass: "simple-icons:ltspice",
+          name: "C",
+          iconifyClass: "fa:cogs",
         },
         {
-          name: "Multisim NI",
-          iconifyClass: "simple-icons:multisim",
+          name: "FPGA & Hardware",
+          iconifyClass: "mdi:chip",
         },
         {
-          name: "Autocad",
-          iconifyClass: "simple-icons:autocad",
+          name: "Network",
+          iconifyClass: "mdi:network",
+        },
+        {
+          name: "Ethernet",
+          iconifyClass: "mdi:ethernet",
+        },
+        {
+          name: "Scripting",
+          iconifyClass: "mdi:script-text",
+        },
+        {
+          name: "GTKWave",
+          iconifyClass: "mdi:analog",
+        },
+        {
+          name: "Wireless Networking",
+          iconifyClass: "ant-design:wifi-outlined",
+        },
+        {
+          name: "Test-bench",
+          iconifyClass: "mdi:play-circle",
+        },
+        {
+          name: "STM32",
+          iconifyClass: "mdi:progress-clock",
         },
       ],
-      
     },
-    
+
+
+
     {
-      name: "Power Failure Monitoring",
+      name: "3-Φ Underground Power Failure Monitoring in Smart Urban Networks",
       url: "https://github.com/akashnb0",
       description:
         "IoT enabled Next-Generation Three Phase Power Failure monitoring system with quick updates through IoT application.",
@@ -660,31 +684,9 @@ const projects = {
       ],
     },
 
-    
-    {
-      name: "PSU Audio Source Switch Circuit",
-      url: "https://github.com/akashnb0",
-      description:
-        "Design of efficient unit based Power Supply Unit Audio Source Switch Circuit Printed Circuit Board (PCB) design",
-      languages: [
-        
-        {
-          name: "Analog",
-          iconifyClass: "mdi:analog",
-        },
-        {
-          name: "Autodesk Eagle",
-          iconifyClass: "simple-icons:autodesk",
-        },
-        {
-          name: "LTSpice",
-          iconifyClass: "simple-icons:ltspice",
-        },
-      ],
-    },
 
     {
-      name: "Profile Output Generation",
+      name: "ISRO - Profile Output Generation for Image Capturing Application for Propulsion Engine Test",
       url: "https://github.com/akashnb0",
       description:
         "Profile Output Generation using Image Capturing Application for Engine Test using Web Enabled Controller with Structured Text Language",
@@ -697,42 +699,16 @@ const projects = {
       ],
     },
 
-
-
-    {
-      name: "COA Examination App",
-      url: "https://sticoa.vercel.app",
-      description:
-        "An end-to-end student portal for learning COA and for examinations",
-      languages: [
-        {
-          name: "React.js",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "TypeScript",
-          iconifyClass: "devicon-typescript",
-        },
-        {
-          name: "Google App Script",
-          iconifyClass: "devicon-google",
-        },
-        {
-          name: "MySQL",
-          iconifyClass: "logos-mysql",
-        },
-        {
-          name: "Springboot",
-          iconifyClass: "logos-spring",
-        },
-      ],
-    },
     {
       name: "IoT Smart Wristband Technology for Ground Personnel",
       url: "https://github.com/akashnb0",
       description:
         "An IoT-based smart wearable technology for Ground Personnel tracking during bandobast with IoT enabled LoRaWAN Technology",
       languages: [
+        {
+          name: "IoT",
+          iconifyClass: "eos-icons:iot",
+        },
         {
           name: "reactjs",
           iconifyClass: "logos-react",
@@ -787,6 +763,94 @@ const projects = {
         },
       ],
     },
+
+
+    {
+      name: "PCB Design",
+      url:
+        "https://drive.google.com/file/d/1YG7b3aCAZYg4OQngmVxPCjrZxlUVP1rm/view?usp=drive_link",
+      description:
+        "PSU Audio Source Switch Circuit with 555 Timer IC as Ocillator Circuit in Autodesk Fusion 360/Eagle",
+      languages: [
+        {
+          name: "Autodesk Eagle",
+          iconifyClass: "simple-icons:autodesk",
+        },
+        {
+          name: "LTSpice",
+          iconifyClass: "simple-icons:ltspice",
+        },
+        {
+          name: "Multisim NI",
+          iconifyClass: "simple-icons:multisim",
+        },
+        {
+          name: "Autocad",
+          iconifyClass: "simple-icons:autocad",
+        },
+      ],
+      
+    },
+    
+    
+
+    
+    {
+      name: "PSU Audio Source Switch Circuit",
+      url: "https://github.com/akashnb0",
+      description:
+        "Design of efficient unit based Power Supply Unit Audio Source Switch Circuit Printed Circuit Board (PCB) design",
+      languages: [
+        
+        {
+          name: "Analog",
+          iconifyClass: "mdi:analog",
+        },
+        {
+          name: "Autodesk Eagle",
+          iconifyClass: "simple-icons:autodesk",
+        },
+        {
+          name: "LTSpice",
+          iconifyClass: "simple-icons:ltspice",
+        },
+      ],
+    },
+
+    
+
+
+
+    {
+      name: "COA Examination App",
+      url: "https://sticoa.vercel.app",
+      description:
+        "An end-to-end student portal for learning COA and for examinations",
+      languages: [
+        {
+          name: "React.js",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "devicon-typescript",
+        },
+        {
+          name: "Google App Script",
+          iconifyClass: "devicon-google",
+        },
+        {
+          name: "MySQL",
+          iconifyClass: "logos-mysql",
+        },
+        {
+          name: "Springboot",
+          iconifyClass: "logos-spring",
+        },
+      ],
+    },
+   
+    
 
 
 
@@ -913,7 +977,6 @@ const projects = {
         },
       ],
     },
-    
   ],
 };
 

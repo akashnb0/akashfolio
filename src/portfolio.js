@@ -15,7 +15,7 @@ const greeting = {
   nickname: "Akash",
   full_name: "Akash S",
   subTitle:
-    "Electronics Medalist. Software Engineer excelling in Data Structures and Algorithms. Embedded Software Engineer & IoT. Verilog VLSI. Embedded Programming with STM32 ARM Cortex. LTSpice circuit modelling. PCB CAM Technical Writing. Cisco CA, Dean of Academic Affairs and CoE Officer, STI.",
+    "Software Engineer | Wireless Networks | Embedded Software Engineering | Hardware Design | Operating Systems",
     
   resumeLink:
     "https://drive.google.com/file/d/1YG7b3aCAZYg4OQngmVxPCjrZxlUVP1rm/view?usp=drivesdk",
@@ -28,8 +28,6 @@ const socialMediaLinks = {
   linkedin: "http://www.linkedin.com/in/akashnb",
   gmail: "mailto:akashsweb@gmail.com",
   github: "https://github.com/akashnb0",
-  instagram: "http://instagram.com/nb_akash_",
-
 };
 
 const skills = {
@@ -413,26 +411,26 @@ const experience = {
       experiences: [
 
         {
-          title: "Hardware Engineer for AI",
+          title: "Software Engineer",
           company: "SolarEdge Technologies",
           company_url: "https://www.solaredge.com/us/",
           logo_path: "solaredge.png",
           duration: "October 2024 - Present",
           location: "Florida, Israel & Vietnam",
           description:
-            "Working as a Hardware Engineer for Machine Vision AI for SolarEdge's core products. Working Sites - Florida, United States | Vietnam",
+            "Working as a Software Engineer for SolarEdge's core products. Working Sites - United States | Israel | Vietnam",
           color: "#2962FF",
         },
 
         {
-          title: "PCB CAM Engineer",
+          title: "Design Engineer",
           company: "Viasion Technology Co Ltd.",
           company_url: "", //to be updated with sti website
           logo_path: "pcbb.png",
           duration: "June 2023 - Present",
           location: "Shenzhen, China",
           description:
-            "Technical & Research article writer at a PCB Manufacturing Company in Hong Kong, China",
+            "Technical & Research article writer at a PCB Manufacturing Company in Shenzhen, China",
           color: "#f10000",
         },
         
